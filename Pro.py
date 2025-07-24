@@ -68,8 +68,8 @@ def downloadXkcd(comic_number):
         print(f"Failed to download comic {comic_number}. Error: {e}")
 
 def send_email(subject, body, to_email):
-    from_email = "appireddyappi0@gmail.com"
-    from_password = "nudh zsum vvsi dnqz"
+    from_email = "yourgmail@gmail.com"
+    from_password = "your password"
 
     msg = MIMEMultipart()
     msg['From'] = from_email
